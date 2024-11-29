@@ -31,6 +31,10 @@ const nextConfig = {
             }
         ];
     },
+    async redirects() {
+        return [];
+      },
+      
     // Optional: Add image domains if you're using next/image
     images: {
         domains: ['https://ondcpreprod.nazarasdk.com'], // Add domains you want to load images from
