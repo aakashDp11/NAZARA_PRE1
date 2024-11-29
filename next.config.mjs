@@ -31,9 +31,9 @@ const nextConfig = {
             }
         ];
     },
-    async redirects() {
-        return [];
-      },
+    // async redirects() {
+    //     return [];
+    //   },
       
     // Optional: Add image domains if you're using next/image
     images: {
